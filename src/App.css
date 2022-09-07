@@ -1,8 +1,37 @@
-.App {
+#container {
   text-align: center;
+  align-items: center;
+  background-image: url("https://cdn.theculturetrip.com/wp-content/uploads/2015/12/8_TinyRecordStore.jpg");
+  background-size: 1600px 1000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.App-logo {
+li {
+  list-style-type: none;
+}
+
+.header {
+  font-size: 90px;
+  color: cornflowerblue;
+  text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.item {
+  background-color: cornflowerblue;
+  border-style: solid;
+  backdrop-filter: blur(5px);
+  width: 500px;
+  margin-left: 400px;
+  margin-right: 400px;
+  
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +64,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

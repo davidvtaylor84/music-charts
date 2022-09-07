@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = ({title})=>{
     return (
-        <h2>{title}</h2>
+        <h1 className="header">{title}</h1>
     )
 
 }

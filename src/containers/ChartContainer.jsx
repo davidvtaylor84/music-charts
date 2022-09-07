@@ -17,7 +17,7 @@ const ChartContainer = ()=>{
 
     return (
         <div>
-            <Header title="Very Excellent Chart Container App"/>
+            <Header title="iTunes Charts"/>
             <ChartList charts={charts}/>
         </div>
     )

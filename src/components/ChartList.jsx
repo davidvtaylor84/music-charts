@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from "react";
-import ChartItem from "../components/ChartItem";
+import ChartItem from "./ChartItem";
 
 const ChartList=({charts})=>{
     if(!charts.feed) return null;

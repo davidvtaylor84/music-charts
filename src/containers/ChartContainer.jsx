@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from "react";
-import ChartList from "./ChartList";
+import ChartList from "../components/ChartList";
 import Header from "./Header";
 
 const ChartContainer = ()=>{
